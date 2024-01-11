@@ -1,0 +1,167 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: TW Cen MT;
+  padding: 10px;
+  font-size: 20px;
+  background: grey;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #33AFFF;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: white;
+  color: #0000ffff;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  font-size: 20px;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  font-size: 15px;
+  background-color: grey;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  font-size: 15px;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  font-size: 20px;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  font-size: 20px ;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+</head>
+<body>
+<title>Experience</title>
+<div class="header">
+  <h1><b>Siti Fatimah<b></h1>
+  <p><marquee loop="20">بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ</marquee loop="20"></p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="1biodata.html">Biodata</a>
+  <a href="2exp.html">Experience</a>
+  <a href="3edu.html">Education</a>
+  <a href="4gallery.html">Gallery</a>
+  <a href="https://www.instagram.com/syimoh_/" style="float:right">Contact Me</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    </div>
+    <div class="card">
+      <h2><b>Experience<b></h2>
+	  <table>
+	  <table style="width:100%">
+  <tr>
+
+    <th>Skill</th>
+    <th>Checklist</th>
+  </tr>
+  <tr>
+    <td><i>Expert in Microsoft Office<i></td>
+    <td>  ☑</td>
+   
+  </tr>
+  <tr>
+    <td><i>Excellent to design artwork<i></td>
+    <td>  ☑</td>
+  </tr>
+  <tr>
+	<td><i>Good in Managing Time<i></td>
+	<td>  ☑</td>
+ 
+  </tr>
+</table>
+</body>
+</html>
